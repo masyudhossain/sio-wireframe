@@ -1,25 +1,36 @@
 # SIO West Bengal — Leadership Page Wireframe & Section-Wise Content Matrix
 > **Document Status**: Production Ready & Fully Aligned with Existing Codebase  
+> **Document Status**: Production Ready & Fully Aligned with SIO Constitution (Amended Dec 2022) & Policy & Programme (2025–2026 / 22nd Term)  
 > **Target Route**: `/about/leadership` and `/about/leadership/[slug]`  
 > **Source Files**: [`src/app/about/leadership/page.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/about/leadership/page.tsx), [`src/app/about/leadership/[slug]/leader-detail-client.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/about/leadership/[slug]/leader-detail-client.tsx), [`src/data/leadership.ts`](file:///home/masyud/Development/Masyud/SIO/src/data/leadership.ts)  
 > **Design Pattern**: Jamaat-e-Islami Hind (JIH) Leadership Directory & Individual Profile Pages with Dual-Tone Blue Gradients, Silhouette Badges, and Full Hierarchy Flow.
+> **Design Pattern**: Democratic Consultation (Shura) Leadership Directory & Individual Profile Pages with Dual-Tone Blue Gradients, Constitutional Article Citations, Silhouette Badges, and Full Hierarchy Flow.
 
 ---
 
 ## 1. Executive Summary & Page Architecture
 
 The **Leadership Page** serves as the public governance and transparency directory for Students Islamic Organisation of India (SIO) West Bengal Zone (Session 2025–26).
+The **Leadership Page** serves as the public governance, accountability, and transparency directory for Students Islamic Organisation of India (SIO) West Bengal Zone for **Session 2025–2026 (22nd Term)** under National President **Mohammed Abdul Hafeez** (Central Markaz) and State President **Sabir Ahmed** (West Bengal Zone).
 
 ### Hierarchy Sequence:
 $$\text{President} \longrightarrow \text{General Secretary} \longrightarrow \text{State Secretariat} \longrightarrow \text{Wings and Coordinators} \longrightarrow \text{ZAC (Advisory Council)} \longrightarrow \text{District Presidents} \longrightarrow \text{Past Leaderships}$$
+### Constitutional Governance Pillars:
+$$\text{Central Leadership (CAC)} \longrightarrow \text{Zonal President} \longrightarrow \text{General Secretary} \longrightarrow \text{State Secretariat} \longrightarrow \text{Wings and Coordinators} \longrightarrow \text{ZAC (Advisory Council)} \longrightarrow \text{District Presidents} \longrightarrow \text{Past Leaderships}$$
 
 ### Key Technical & Visual Attributes:
+### Key Constitutional & Visual Attributes:
+- **Constitutional Office-Bearer Standards (Article 7)**: Leaders do not lobby or aspire for any post; selections are made strictly by consultative Shura on the basis of Islamic knowledge, piety (*taqwa*), sagacity, adherence to constitution, and organizational capability.
+- **Biennial Term (Article 8)**: Two-year term for Central and Zonal offices (Session 2025–2026).
 - **Dual Presentation Modes**:
   1. **All Hierarchy View (`tab=all`)**: Natural vertical flow through all 7 constitutional tiers with anchor jump-links.
+  1. **All Hierarchy View (`tab=all`)**: Natural vertical flow through all constitutional tiers with anchor jump-links.
   2. **Filtered Category Tabs**: Instant tab switching (`president`, `general-secretary`, `secretariat`, `wings`, `zac`, `district`, `past`) with leader counts.
 - **Instant Search**: Real-time client-side search across leader names (Bengali/English), designations, departments, and districts.
 - **Unified JIH Card Component**: Every leader card features a curved blue gradient top banner (`#0F4C81` to `#168BD4`), circular avatar frame with first-letter initial badge, category tag, academic credentials, and view full profile hover trigger.
 - **Dedicated Profile Route (`[slug]`)**: Clicking any card smoothly navigates to `/about/leadership/[slug]` featuring biographical journey, session priorities, academic accolades, published books, and direct contact buttons.
+- **Unified Card Component**: Every leader card features a curved blue gradient top banner (`#0F4C81` to `#168BD4`), circular avatar frame with first-letter initial badge, category tag, academic credentials, and view full profile hover trigger.
+- **Dedicated Profile Route (`[slug]`)**: Clicking any card smoothly navigates to `/about/leadership/[slug]` featuring biographical journey, 2025–2026 session priorities, academic accolades, published books, and direct contact buttons.
 
 ---
 

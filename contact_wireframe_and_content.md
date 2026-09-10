@@ -1,14 +1,17 @@
 # SIO West Bengal — Contact Us Page Wireframe & Section-Wise Content Matrix
 > **Document Status**: Production Ready & Fully Aligned with Existing Codebase  
+> **Document Status**: Production Ready & Fully Aligned with SIO Constitution (Amended Dec 2022) & Policy & Programme (2025–2026 / 22nd Term)  
 > **Target Route**: `/contact`  
 > **Source File**: [`src/app/contact/page.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/contact/page.tsx)  
 > **Design Pattern**: Multi-Channel Student Welfare & Organizational Helpdesk with Hero Showcase, 3-Column Contact & Form Hub, Google Maps Embed with Landmark Card, 5 Departmental Direct Mail Desks, and Navy Newsletter Strip.
+> **Design Pattern**: Multi-Channel Student Welfare & Institutional Helpdesk with Hero Showcase, 3-Column Contact & Form Hub, Project InQhab Admissions & Mental Wellness Desks, Google Maps Embed with Landmark Card, and Article 6 Membership Gateway.
 
 ---
 
 ## 1. Executive Summary & Page Architecture
 
 The **Contact Us Page** (`/contact`) functions as the official public gateway, grievance redressal center, and membership inquiry desk for the Students Islamic Organisation of India (SIO) West Bengal. It connects students, parents, academic scholars, and volunteers directly with state headquarters and functional secretariats.
+The **Contact Us Page** (`/contact`) functions as the official public gateway, student grievance redressal center, and constitutional membership inquiry desk for Students Islamic Organisation of India (SIO) West Bengal for **Session 2025–2026 (22nd Term)**. It connects students, parents, research scholars, and volunteers directly with state headquarters, national Markaz, and functional secretariats.
 
 ### Core Functional Pillars:
 $$\begin{matrix}

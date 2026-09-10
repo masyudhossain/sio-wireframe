@@ -1,5 +1,6 @@
 # SIO West Bengal — Resources & Document Archive Page Wireframe & Section-Wise Content Matrix
 > **Document Status**: Production Ready & Fully Aligned with Existing Codebase  
+> **Document Status**: Production Ready & Fully Aligned with SIO Constitution (Amended Dec 2022) & Policy & Programme (2025–2026 / 22nd Term)  
 > **Target Route**: `/resources`  
 > **Source File**: [`src/app/resources/page.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/resources/page.tsx)  
 > **Design Pattern**: Official Document & Literature Repository with Hero Search Bar, Sticky 7-Category Tab Navigation with Item Counts, 3-Column Responsive Resource Card Grid, Instant Download Notification Toast, and Direct Archive Helpdesk Call-to-Action.
@@ -9,6 +10,7 @@
 ## 1. Executive Summary & Page Architecture
 
 The **Resources & Document Archive Page** (`/resources`) serves as the authoritative, centralized publication and documentation portal for the Students Islamic Organisation of India (SIO) West Bengal. It offers verified access to official constitutional literature, strategic policies, student manuals, academic monographs published by the Center for Educational Research and Training (CERT), monthly bulletins, and printable administrative forms.
+The **Resources & Document Archive Page** (`/resources`) serves as the authoritative, centralized publication and documentation portal for the Students Islamic Organisation of India (SIO) West Bengal. It offers verified access to official constitutional literature (Amended Dec 2022), the **Biennial Policy & Programme (2025–2026 / 22nd Term)**, student manuals, academic monographs published by the Center for Educational Research and Training (CERT), monthly bulletins, and printable administrative forms.
 
 ### Six Core Document Domains:
 $$\begin{matrix}
@@ -322,11 +324,14 @@ flowchart TD
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
 | `const-1` | `constitution`<br>`ShieldCheck` | **স্টুডেন্টস ইসলামিক অর্গানাইজেশন অব ইন্ডিয়া (SIO) সংবিধান**<br>Students Islamic Organisation of India Constitution | **সংগঠনের লক্ষ্য, উদ্দেশ্য, আদর্শ, সদস্যপদ বিধিমালা, কেন্দ্রীয় ও রাজ্য সাংগঠনিক কাঠামোর পূর্ণাঙ্গ অফিসিয়াল সংবিধান।**<br>Complete official constitution defining SIO's divine mission, objectives, membership bylaws, and national organizational hierarchy. | `PDF`<br>`1.4 MB` | ২০২৪ সংস্করণ | **Yes** |
 | `const-2` | `constitution`<br>`ShieldCheck` | **সংविधानের সারসংক্ষেপ ও সদস্য আচরণবিধি**<br>Constitutional Synopsis & Cadre Code of Ethics | **নবীন কর্মী ও সাধারণ শিক্ষার্থীদের জন্য সংবিধানের গুরুত্বপূর্ণ অনুচ্ছেদ (অনুচ্ছেদ ৪, ৫ ও ৬) এবং আচরণবিধির সহজ গাইড।**<br>Simplified guide to Articles 4, 5, and 6 of the constitution and student ethical principles. | `PDF`<br>`850 KB` | ২০২৪ | No |
+| `const-1` | `constitution`<br>`ShieldCheck` | **স্টুডেন্টস ইসলামিক অর্গানাইজেশন অব ইন্ডিয়া (SIO) সংবিধান (সংশোধিত ২০২২)**<br>Constitution of Students Islamic Organisation of India (Amended up to Dec 2022) | **সংগঠনের লক্ষ্য, উদ্দেশ্য, আদর্শ, সদস্যপদ বিধিমালা, কেন্দ্রীয় ও রাজ্য সাংগঠনিক কাঠামোর ৫২ ধারার পূর্ণাঙ্গ অফিসিয়াল সংবিধান।**<br>Complete official 28-page constitution defining SIO's divine mission, aims & objectives, membership bylaws, and four-tier hierarchy. | `PDF`<br>`2.4 MB` | ডিসেম্বর ২০২২ সংশোধিত | **Yes** |
+| `const-2` | `constitution`<br>`ShieldCheck` | **সংবিধানের সারসংক্ষেপ ও সদস্য আচরণবিধি (ধারা ৪, ৫ ও ৬)**<br>Constitutional Synopsis & Cadre Code of Ethics | **নবীন কর্মী ও সাধারণ শিক্ষার্থীদের জন্য সংবিধানের গুরুত্বপূর্ণ অনুচ্ছেদ (মিশন, ৩টি কর্মপদ্ধতি ও ৪টি সদস্যপদ শর্ত) এবং নৈতিক আচরণবিধির সহজ গাইড।**<br>Simplified handbook on Articles 4, 5, and 6 of the constitution and student ethical standards. | `PDF`<br>`850 KB` | ২০২৩ | No |
 
 #### Domain 2: নীতিমালা ও প্রোগ্রাম (Policy & Programme — 3 Items)
 | Item ID | Category & Icon | Title (বাংলা / English) | Description (বাংলা / English) | Format & Size | Publication Year | Featured |
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
 | `policy-1` | `policy`<br>`FileCheck` | **দ্বিবার্ষিক কেন্দ্রীয় পলিসি ও প্রোগ্রাম (২০২৪-২০২৬)**<br>Biennial Central Policy & Programme (2024–2026) | **আগামী দুই বছরের জন্য সর্বভারতীয় স্তরে ছাত্র আন্দোলন, সমাজ সংস্কার ও শিক্ষাগত নীতিমালার বিশদ কর্মপরিকল্পনা।**<br>Strategic two-year nationwide operational roadmap for academic excellence, character building, and social action. | `PDF`<br>`2.8 MB` | ২০২৪-২৬ | **Yes** |
+| `policy-1` | `policy`<br>`FileCheck` | **দ্বিবার্ষিক কেন্দ্রীয় পলিসি ও প্রোগ্রাম (২০২৫–২০২৬ / ২২তম টার্ম)**<br>Biennial Central Policy & Programme (January 2025 – December 2026) | **জাতীয় সভাপতি মোহাম্মদ আব্দুল হাফিজের নেতৃত্বে কেন্দ্রীয় মজলিসে শুরা (CAC) অনুমোদিত ১২ দফা কৌশলগত কর্মপরিকল্পনা, ফ্ল্যাগশিপ প্রজেক্ট ও দ্বিবার্ষিক ক্যালেন্ডার।**<br>Comprehensive 30-page strategic operational roadmap for 2025-2026 detailing Tazkiyah, InQhab, campus democracy, and national action calendars. | `PDF`<br>`1.8 MB` | সেশন ২০২৫–২৬ | **Yes** |
 | `policy-2` | `policy`<br>`FileCheck` | **পশ্চিমবঙ্গ জোন শিক্ষা ও ক্যাম্পাস নীতিমালা**<br>West Bengal Zone Campus & Educational Policy | **রাজ্যের উচ্চশিক্ষা ক্যাম্পাসসমূহে গণতান্ত্রিক পরিবেশ বজায় রাখা এবং ছাত্র অধিকার সংক্রান্ত জোনাল নীতিমালা।**<br>State-level student rights advocacy, campus democracy guidelines, and admission mentorship framework. | `PDF`<br>`1.2 MB` | ২০২৪ | No |
 | `policy-3` | `policy`<br>`FileCheck` | **স্কুল ও কিশোর বিভাগীয় বার্ষিক রূপরেখা**<br>School & Junior Wing Annual Action Plan | **মাধ্যমিক ও উচ্চ মাধ্যমিক স্তরের শিক্ষার্থীদের জন্য মেধা অন্বেষণ পরীক্ষা (STSE) ও মূল্যবোধ শিক্ষার নীতিমালা।**<br>Statewide talent search examination (STSE) blueprint and values-based curriculum for school students. | `PDF`<br>`950 KB` | ২০২৪ | No |
 

@@ -1,14 +1,14 @@
 # SIO West Bengal — Media Center Page Wireframe & Section-Wise Content Matrix
-> **Document Status**: Production Ready & Fully Aligned with Existing Codebase  
+> **Document Status**: Production Ready & Fully Aligned with SIO Constitution (Amended Dec 2022) & Policy & Programme (2025–2026 / 22nd Term)  
 > **Target Route**: `/media`  
 > **Source File**: [`src/app/media/page.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/media/page.tsx)  
-> **Design Pattern**: Tri-Modal Digital Asset Hub (Photos, Videos, Publications) with Sticky 3-Tab Selector, Left-Right Split Sidebars, Media Grid Layouts, Instant Downloads, and Navy Newsletter Banner.
+> **Design Pattern**: Tri-Modal Digital Asset Hub (Photos, Videos, Publications) with Sticky 3-Tab Selector, Alternative Media Showcase, Media Grid Layouts, Instant Downloads, and Navy Newsletter Banner.
 
 ---
 
 ## 1. Executive Summary & Page Architecture
 
-The **Media Center Page** (`/media`) serves as the official visual and documentary archive of SIO West Bengal.
+The **Media Center Page** (`/media`) serves as the official visual and documentary archive of SIO West Bengal for **Session 2025–2026 (22nd Term)**. It documents statewide conferences, alternative media productions, educational documentaries, and verified publications in alignment with the national PR & media directives.
 
 ### Three Primary Media Modalities:
 $$\text{Photo Gallery (ছবি গ্যালারি)} \longleftrightarrow \text{Videos (ভিডিও)} \longleftrightarrow \text{Publications and Downloads (প্রকাশনা)}$$

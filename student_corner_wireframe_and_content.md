@@ -1,14 +1,17 @@
 # SIO West Bengal — Student Corner Page Wireframe & Section-Wise Content Matrix
 > **Document Status**: Production Ready & Fully Aligned with Existing Codebase  
+> **Document Status**: Production Ready & Fully Aligned with SIO Constitution (Amended Dec 2022) & Policy & Programme (2025–2026 / 22nd Term)  
 > **Target Route**: `/student-corner`  
 > **Source File**: [`src/app/student-corner/page.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/student-corner/page.tsx)  
 > **Design Pattern**: Student Empowerment & Academic Resource Portal featuring 4 Functional Pillars, Real-Time Search, Sticky Pill Navigator, 3-Column Initiative Cards, 3-Tier Direct Helpdesk Support Strip, and Conscious Student Membership CTA.
+> **Design Pattern**: Student Empowerment, Academic Research & Welfare Portal featuring 4 Functional Pillars, Session 2025–2026 Policy Alignment, Real-Time Search, Sticky Pill Navigator, Project InQhab & Mental Wellness Desk, and Article 6 Membership CTA.
 
 ---
 
 ## 1. Executive Summary & Page Architecture
 
 The **Student Corner Page** (`/student-corner`) is the primary student services, intellectual empowerment, and campus guidance destination for students across West Bengal's schools, colleges, and universities.
+The **Student Corner Page** (`/student-corner`) is the primary student services, intellectual empowerment, university admissions, and campus guidance destination for students across West Bengal's schools, colleges, universities, and Deeni Madaris in execution of the **Biennial Policy & Programme (2025–2026)**.
 
 ### Four Core Student Pillars:
 $$\text{Student Research (ছাত্র রিসার্চ)} \longleftrightarrow \text{Education and Career (শিক্ষা ও ক্যারিয়ার)} \longleftrightarrow \text{Campus Wing (ক্যাম্পাস উইং)} \longleftrightarrow \text{Youth Wing (যুব বিভাগ)}$$
@@ -17,9 +20,14 @@ $$\text{Student Research (ছাত্র রিসার্চ)} \longleftright
 - **Hero Showcase**: Sky blue backdrop (`#EAF6FF`) featuring an eyebrow pill, dual-script title, and multi-keyword real-time search engine.
 - **Sticky Pillar Navigator Bar**: Sticky toolbar (`sticky top-16 md:top-[72px] z-40 bg-white border-b border-[#E5E7EB]`) offering 5 filter pills with live counters (`All [10]`, `Research [2]`, `Career [3]`, `Campus [2]`, `Youth [3]`).
 - **3-Column Program Cards Grid**: Responsive grid (`grid-cols-1 md:grid-cols-2 lg:grid-cols-3`) with specialized tags, impact metrics badges (e.g. `২৫+ ফেলোশিপ`, `১০,০০০+ ছাত্র সহায়তা`, `৫০০+ সক্রিয় ইউনিট`), 3-point bulleted benefit checklists, and dynamic modal inquiry triggers.
+- **Hero Showcase**: Sky blue backdrop (`#EAF6FF`) featuring an eyebrow pill (`সেশন ২০২৫–২৬ • ২২তম টার্ম`), dual-script title, and multi-keyword real-time search engine.
+- **Sticky Pillar Navigator Bar**: Sticky toolbar (`sticky top-16 md:top-[72px] z-40 bg-white border-b border-[#E5E7EB]`) offering 5 filter pills with live counters (`All [12]`, `Research [3]`, `Career [3]`, `Campus [3]`, `Youth [3]`).
+- **3-Column Program Cards Grid**: Responsive grid (`grid-cols-1 md:grid-cols-2 lg:grid-cols-3`) featuring flagship initiatives from the 2025–2026 Policy: **Project InQhab** (University Admissions Academy), **Framing Academia & Episteme** (Research Fellowships), **Campus Democracy & Student Unions**, and **Mental Wellness Forum & Youth Helpline**.
 - **Interactive Feedback Toast**: Real-time acknowledgment alert confirming student inquiry and dispatching requests to specialized mentorship desks.
 - **Direct Support Helpdesk Strip**: 3-card white container addressing urgent needs: Admission & Scholarship verification, Civil Service career circles, and new Campus Unit establishment.
 - **Conscious Student Membership CTA**: Deep blue banner (`#0F4C81`) routing to `/contact` for official membership enrollment.
+- **Direct Support Helpdesk Strip**: 4-card white container addressing urgent needs: Project InQhab Admissions, Scholarship Verification, Mental Wellness & Counseling, and New Campus Unit Establishment (Article 38).
+- **Conscious Student Membership CTA**: Deep blue banner (`#0F4C81`) detailing the 4 constitutional membership criteria of Article 6 and routing to `/contact` for official enrollment.
 
 ---
 

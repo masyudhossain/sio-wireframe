@@ -1,14 +1,17 @@
 # SIO West Bengal — News & Articles Page Wireframe & Section-Wise Content Matrix
 > **Document Status**: Production Ready & Fully Aligned with Existing Codebase  
+> **Document Status**: Production Ready & Fully Aligned with SIO Constitution (Amended Dec 2022) & Policy & Programme (2025–2026 / 22nd Term)  
 > **Target Route**: `/articles`  
 > **Source Files**: [`src/app/articles/page.tsx`](file:///home/masyud/Development/Masyud/SIO/src/app/articles/page.tsx), [`src/lib/mock/articles.ts`](file:///home/masyud/Development/Masyud/SIO/src/lib/mock/articles.ts), [`src/types/article.ts`](file:///home/masyud/Development/Masyud/SIO/src/types/article.ts)  
 > **Design Pattern**: Multi-Category Editorial & Media Portal with 2-Column Sidebar Layout, Real-Time Search, Date Filters, Tag Cloud, Grid/List View Modes, Numbered Pagination, and Dark Blue Newsletter Banner.
+> **Design Pattern**: Multi-Category Editorial & Media Portal with 2-Column Sidebar Layout, Session 2025–2026 Policy Alignment, Real-Time Search, Date Filters, Tag Cloud, Grid/List View Modes, and Dark Blue Newsletter Banner.
 
 ---
 
 ## 1. Executive Summary & Page Architecture
 
 The **News & Articles Page** (`/articles`) serves as the official publication, opinion journalism, and public statement hub for Students Islamic Organisation of India (SIO) West Bengal.
+The **News & Articles Page** (`/articles`) serves as the official publication, opinion journalism, and public statement hub for Students Islamic Organisation of India (SIO) West Bengal for **Session 2025–2026 (22nd Term)**. It communicates official press statements on educational equity, Waqf defense, campus democracy, Islamic thought, and youth welfare in alignment with the national policy framework.
 
 ### Editorial Scope:
 $$\text{News (সংবাদ)} \longleftrightarrow \text{Articles (নিবন্ধ)} \longleftrightarrow \text{Opinion (মতামত)} \longleftrightarrow \text{Press Releases (প্রেস বিজ্ঞপ্তি)} \longleftrightarrow \text{Columns (কলাম)} \longleftrightarrow \text{Analysis (বিশ্লেষণ)}$$
